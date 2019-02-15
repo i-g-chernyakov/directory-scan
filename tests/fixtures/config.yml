@@ -1,0 +1,22 @@
+# Recursive scan subdirectories to defined depth. Optional.
+# If not set than scan all subdirectories.
+# Argument for command line --depth or -d
+# depth: 1
+
+# Period of scanning. Optional. Default period is 60 seconds.
+# Argument for command line --period or -p
+period: 60
+
+# Ignored extensions. Optional.
+# By default ignored = ""
+# Argument for command line --ignored or -i
+# ignored: ""
+
+# Log level. Optional.
+# Default = "INFO"
+# Argument for command line --log or -l
+# log_level: "DEBUG"
+
+# Database url. Optional
+# Argument for command line --database-url or -u
+# database_url: "postgresql+psycopg2://postgres:postgres@localhost/directory_scan"
